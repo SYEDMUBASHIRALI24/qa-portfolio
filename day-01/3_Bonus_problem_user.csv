@@ -1,0 +1,4 @@
+﻿#,Observation with problem_user,Compared with standard_user
+1,All product images look the same (same picture for every product),standard_user shows a different image for each product
+2,Sorting does not arrange the products in the correct order,standard_user sorting works correctly
+3,Typing in the Last Name field on checkout goes into the wrong field and the order cannot be completed,standard_user checkout form works and the order completes

@@ -1,0 +1,31 @@
+﻿ID,Page / Area,Feature (what the user can do),Input fields or controls,Notes / questions
+F-01,Login,Log in with username and password,"Username, password, Login button","What happens with a wrong password? Login page also lists 6 accepted usernames (standard_user, locked_out_user, problem_user, performance_glitch_user, error_user, visual_user) and one common password"
+F-02,Login,Submit login with empty fields,"Username, password, Login button",Shows Username is required / Password is required
+F-03,Login,Try login as a locked user,"Username (locked_out_user), Login button",Shows a locked-out error. Does the error cross (X) button close it?
+F-04,Products,View list of all products,"Product cards (image, name, description, price)","6 products shown, each with a different image, name, description and price. Default sort is Name (A to Z)"
+F-05,Products,Sort products,"Sort dropdown (A-Z, Z-A, price low-high, price high-low)",Is price sorting numeric or text-based?
+F-06,Products,Add a product to cart from the list,Add to cart button,Button changes to Remove after adding
+F-07,Products,Remove a product from the list page,Remove button,Does the cart badge number decrease?
+F-08,Products,See cart item count,Cart icon badge,Does the badge stay after page refresh?
+F-09,Products,Open product details,Product name / product image link,Do image click and name click open the same page?
+F-10,Product page,"View product name, description, price, image",Product detail view,-
+F-11,Product page,Add / remove product from detail page,Add to cart / Remove button,Is the state the same as on the list page?
+F-12,Product page,Go back to products list,Back to products button,Does the selected sorting stay after going back?
+F-13,Cart,View items added to cart,"Cart icon, cart list (QTY, description, price)","Cart shows QTY box, name, description, price and Remove button for each item (6 items in my test)"
+F-14,Cart,Remove an item from cart,Remove button,Does the badge update immediately?
+F-15,Cart,Go back to shopping,Continue Shopping button,Are cart items kept?
+F-16,Cart,Proceed to checkout,Checkout button,Can we checkout with an empty cart?
+F-17,Checkout: Info,Enter shipping information,"First Name, Last Name, Postal Code, Continue button",Are special characters or very long text accepted?
+F-18,Checkout: Info,Submit form with missing fields,Continue button,Shows First Name / Last Name / Postal Code is required
+F-19,Checkout: Info,Cancel checkout,Cancel button,Where does the user land after cancelling?
+F-20,Checkout: Overview,Review order summary,"Item list, payment info, shipping info",Shows payment card info and free shipping details
+F-21,Checkout: Overview,"View item total, tax and final total",Price summary,Is the tax calculation correct?
+F-22,Checkout: Overview,Complete the order,Finish button,Is any final confirmation asked before placing the order?
+F-23,Checkout: Complete,See order confirmation,Thank you for your order message,Is the cart emptied after the order?
+F-24,Checkout: Complete,Return to the products page,Back Home button,-
+F-25,Side menu,Open and close the menu,"Burger menu icon, close (X) button",-
+F-26,Side menu,Go to All Items,All Items link,-
+F-27,Side menu,Open About page,About link,Opens the Sauce Labs website. Same tab or new tab?
+F-28,Side menu,Log out,Logout link,Is the cart still saved after logging in again?
+F-29,Side menu,Reset the app,Reset App State link,Does it clear the cart and Remove buttons?
+F-30,Footer,Open social media pages,"Twitter, Facebook, LinkedIn icons",Do links open in a new tab?

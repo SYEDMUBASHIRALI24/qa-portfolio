@@ -1,0 +1,8 @@
+﻿#,Testing Principle,Example from SauceDemo (in my own words)
+1,Testing shows the presence of defects,"I tested login, sorting and checkout. If I find a bug there, it proves defects exist. But if I find none, it does not prove the site is completely bug-free."
+2,Exhaustive testing is impossible,"The checkout form accepts endless combinations of first name, last name and postal code. I cannot test every combination, so I choose important ones (empty, special characters, very long text)."
+3,Early testing saves time and money,"If the login error messages and checkout validation rules were reviewed at the requirements stage, fixing them would be cheaper than fixing them after the site is released."
+4,Defects cluster together,"Complex areas like cart and checkout (many buttons, calculations, forms) are more likely to have bugs than simple pages like About, so I should test them more."
+5,Pesticide paradox,"If I run the same login and checkout test cases again and again, they will stop finding new bugs. I need to update tests and add new ones, for example with different users like problem_user."
+6,Testing is context dependent,"SauceDemo is an online store, so checkout, price, tax and cart accuracy matter most. A game app would need different testing such as performance and graphics."
+7,Absence-of-errors fallacy,"Even if SauceDemo had no bugs at all, customers would still be unhappy if it had no search or filter and they could not find the products they need."
